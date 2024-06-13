@@ -6,3 +6,30 @@ body {
 a {
     text-decoration: none;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2037;
+    padding: 16px;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-links a {
+    color: #e5E7eb;
+    font-size: 18px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f9faf8;
+}
