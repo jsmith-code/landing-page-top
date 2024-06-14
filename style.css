@@ -34,3 +34,22 @@ a {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 96px;
+    flex-wrap: wrap;
+}
+
+.welcome-text {
+    flex: 1;
+    min-width: 200px;
+}
+
+.welcome-img {
+    flex: 0;
+    width: 400px;
+}
