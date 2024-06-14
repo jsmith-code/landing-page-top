@@ -44,6 +44,7 @@ a {
     flex-wrap: wrap;
     background-color: #1F2037;
     color: #f9faf8;
+    font-size: 18px;
 }
 
 .welcome-text h1 {
