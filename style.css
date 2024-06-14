@@ -42,6 +42,20 @@ a {
     gap: 32px;
     padding: 96px;
     flex-wrap: wrap;
+    background-color: #1F2037;
+    color: #f9faf8;
+}
+
+.welcome-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.welcome-text p {
+    color: #e5E7eb;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 .welcome-text {
