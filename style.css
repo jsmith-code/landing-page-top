@@ -78,3 +78,36 @@ button {
     flex: 0;
     width: 400px;
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.cards h1 {
+    font-size: 36px;
+    margin: 48px 0;
+}
+
+.cards-container {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card img {
+    max-width: 100%;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+}
